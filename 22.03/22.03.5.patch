@@ -32,7 +32,7 @@ index 6089750407..c108d07834 100644
  
 +define Device/nexx_wt3020-16m
 +  SOC := mt7620n
-+  IMAGE_SIZE := 7872k
++  IMAGE_SIZE := 16064k
 +  IMAGES += factory.bin
 +  IMAGE/factory.bin := $$(sysupgrade_bin) | check-size | \
 +	poray-header -B WT3020 -F 16M
